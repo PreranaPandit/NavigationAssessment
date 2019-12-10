@@ -47,7 +47,12 @@ public class ToolsFragment extends Fragment {
 
         List<Contacts> contactsList = new ArrayList<>();
 
-        contactsList.add(new Contacts("abshgcgdc","jhfgdfg",R.drawable.a));
+        contactsList.add(new Contacts(" Name: William Mart","Contact: 9852131212",R.drawable.anova));
+        contactsList.add(new Contacts(" Name: Jordon Lius","Contact: 9856321025",R.drawable.googles));
+        contactsList.add(new Contacts(" Name: Tim Crooke","Contact: 9846235478",R.drawable.happy));
+        contactsList.add(new Contacts(" Name: Minke Frankle","Contact: 9856423654",R.drawable.houston));
+        contactsList.add(new Contacts(" Name: Stardam Kanter","Contact: 9756841230",R.drawable.iceland));
+
 
         ContactsAdapter contactsAdapter = new ContactsAdapter(contactsList);
         recyclerView.setAdapter(contactsAdapter);

@@ -10,7 +10,7 @@ public class HomeViewModel extends ViewModel {
 
     public HomeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Select any action");
+        mText.setValue("Select any action from the main drawer");
     }
 
     public LiveData<String> getText() {
